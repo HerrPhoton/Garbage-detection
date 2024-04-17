@@ -2,7 +2,9 @@
 
 ---
 
-<img src = "?size=1024x1024&quality=95&sign=2b85bbe92ad98dacb7a335de0e731a1d&type=album">
+<p align="center">
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/readme_images/Trash.png">
+</p>
 
 ---
 
