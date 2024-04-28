@@ -45,7 +45,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     os.makedirs(args.frames_dir, exist_ok=True)
 
-    for video in tqdm(os.listdir(args.videos_dir)):
+    for video in tqdm(os.listdir(args.videos_dir), leave=False):
 
         file_name = Path(video).with_suffix("")
         save_path = os.path.join(args.frames_dir, file_name)

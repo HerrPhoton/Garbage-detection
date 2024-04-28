@@ -34,7 +34,7 @@ if __name__ == "__main__":
     if args.target_videos_dir is not None:
         names += os.listdir(args.target_videos_dir)
 
-    for video_name in tqdm(os.listdir(args.target_videos_dir)):
+    for video_name in tqdm(os.listdir(args.target_videos_dir), leave=False):
 
         new_video_name = str(Path(video_name).with_suffix(""))
         new_video_name = translator.translate(new_video_name)

@@ -31,7 +31,7 @@ if __name__ == "__main__":
     args = parser.parse_args()
     os.makedirs(args.labels_path, exist_ok=True)
 
-    for annot in tqdm(os.listdir(args.json_dir)):
+    for annot in tqdm(os.listdir(args.json_dir), leave=False):
         data = json.load(open(os.path.join(args.json_dir, annot)))
 
         img_height = data["size"]["height"]

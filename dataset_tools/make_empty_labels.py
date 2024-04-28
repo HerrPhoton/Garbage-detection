@@ -24,6 +24,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     os.makedirs(args.labels_dir, exist_ok=True)
 
-    for image in tqdm(os.listdir(args.images_dir)):
+    for image in tqdm(os.listdir(args.images_dir), leave=False):
         with open(os.path.join(args.labels_dir, Path(image).with_suffix(".txt")), "w") as file:
             file.write("")

@@ -41,7 +41,7 @@ if __name__ == "__main__":
 
     coco = COCO(args.coco_path)
 
-    for id in tqdm(coco.imgs.keys()):
+    for id in tqdm(coco.imgs.keys(), leave=False):
         img_name = coco.imgs[id]["file_name"]
         annotations = coco.loadAnns(coco.getAnnIds([id]))
 

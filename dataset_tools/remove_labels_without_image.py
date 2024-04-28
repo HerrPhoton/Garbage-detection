@@ -24,6 +24,6 @@ if __name__ == "__main__":
     args = parser.parse_args()
     images = os.listdir(args.images_dir)
 
-    for label in tqdm(os.listdir(args.labels_dir)):
+    for label in tqdm(os.listdir(args.labels_dir), leave=False):
         if all([str(Path(label).with_suffix(ext)) not in images for ext in [".jpg", ".png", ".jpeg"]]):
             os.remove(os.path.join(args.labels_dir, label))

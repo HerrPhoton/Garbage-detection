@@ -29,7 +29,7 @@ if __name__ == "__main__":
 
     args = parser.parse_args()
 
-    for label in tqdm(os.listdir(args.labels_dir)):
+    for label in tqdm(os.listdir(args.labels_dir), leave=False):
 
         error = False
 
