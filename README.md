@@ -30,7 +30,7 @@
 Для решения поставленной задачи была выбрана модель YOLOv8n. Данная архитектура обладает хорошой точностью и быстрой скоростью работы, что позволяет использовать её без наличия GPU и, соответственно, на дроне.
 
 <p align="center">
-  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/ultralytics_yolov8_image.png">
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/ultralytics_yolov8_image.png" width = 800px height = 400px>
 </p>
 
 </details>
@@ -44,19 +44,19 @@
 Тренировочные изображения взяты из нескольких разных датасетов, найденных в интернете. Эти изображения содержат различные виды мусора (бутылки, пакеты, органика), которые находятся на различном фоне (трава, асфальт, плитка).
 
 <p align="center">
-  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train1.jpeg"> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train2.jpeg"> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train3.jpg">
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train1.jpeg" width = 302px height = 403px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train2.jpeg" width = 302px height = 403px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train3.jpg" width = 302px height = 403px>
 </p>
 
-В датасете содержатся синтетические изображения с окурками (~6% от всего датасета).
+В датасете имеются синтетические изображения с окурками (~6% от всего датасета).
 
 <p align="center">
-  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes1.jpg"> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes2.jpg"> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes3.jpg">
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes1.jpg" width = 320px height = 320px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes2.jpg" width = 320px height = 320px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes3.jpg" width = 320px height = 320px>
 </p>
 
 Также для уменьшения ложно-положительных результатов модели в тренировочный датасет были добавлены изображения, которые не содержат мусора. (~30% от всего датасета).
 
 <p align="center">
-  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/background1.jpg"> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/background2.jpg">
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/background1.jpg" width = 320px height = 320px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/background2.jpg" width = 320px height = 320px>
 </p>
 
 Перед обучением весь датасет был проверен на дубликаты и протечки, путем создания эмбеддингов и определения косинусного расстояния между ними (порог косинусного расстояния - 0.99).
@@ -82,7 +82,7 @@
 | 368    | 1867      | 0.816 | 0.28 | 0.541 | 0.34      |
 
 <p align="center">
-  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/test1.jpg"> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/test2.jpg">
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/test1.jpg" width = 960px height = 458px>
 </p>
 
 ---
@@ -92,7 +92,7 @@
 ## Результат запуска модели на тестовом видео:
 
 <p align="center">
-  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/gif/test_predict.gif">
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/gif/test_predict.gif" width = 732px height = 412px>
 </p>
 
 </details>
