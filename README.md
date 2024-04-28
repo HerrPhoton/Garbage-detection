@@ -44,13 +44,13 @@
 Тренировочные изображения взяты из нескольких разных датасетов, найденных в интернете. Эти изображения содержат различные виды мусора (бутылки, пакеты, органика), которые находятся на различном фоне (трава, асфальт, плитка).
 
 <p align="center">
-  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train1.jpeg" width = 302px height = 403px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train2.jpeg" width = 302px height = 403px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train3.jpg" width = 302px height = 403px>
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train1.jpeg" width = 302px height = 403px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/train2.jpeg" width = 302px height = 403px>
 </p>
 
 В датасете имеются синтетические изображения с окурками (~6% от всего датасета).
 
 <p align="center">
-  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes1.jpg" width = 320px height = 320px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes2.jpg" width = 320px height = 320px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes3.jpg" width = 320px height = 320px>
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes1.jpg" width = 320px height = 320px> <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/cigarettes2.jpg" width = 320px height = 320px>
 </p>
 
 Также для уменьшения ложно-положительных результатов модели в тренировочный датасет были добавлены изображения, которые не содержат мусора. (~30% от всего датасета).
