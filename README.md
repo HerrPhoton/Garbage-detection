@@ -67,6 +67,8 @@
 
 </details>
 
+Датасет можно скачать [**здесь**](https://drive.google.com/file/d/1V7h8fQgB9Zu_89-0AP85ZIrFBgDq3yUH/view?usp=sharing)
+
 ---
 <details open>
 <summary><h1>Результат обучения</h1></summary>
