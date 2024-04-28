@@ -65,9 +65,9 @@
   <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/duplicate.png">
 </p>
 
-</details>
-
 Датасет можно скачать [**здесь**](https://drive.google.com/file/d/1V7h8fQgB9Zu_89-0AP85ZIrFBgDq3yUH/view?usp=sharing)
+
+</details>
 
 ---
 <details open>
