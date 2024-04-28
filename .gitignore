@@ -1,6 +1,6 @@
-/**/*.jpg
-/**/*.JPG
-/**/*.jpeg
-/**/*.JPEG
-/**/*.png
-/**/*.PNG
+datasets/**/*.jpg
+datasets/**/*.JPG
+datasets/**/*.jpeg
+datasets/**/*.JPEG
+datasets/**/*.png
+datasets/**/*.PNG
