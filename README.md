@@ -62,6 +62,7 @@
 Перед обучением весь датасет был проверен на дубликаты и протечки, путем создания эмбеддингов и определения косинусного расстояния между ними (порог косинусного расстояния - 0.99).
 
 <p align="center">
+  <img src="https://github.com/HerrPhoton/Garbage_detection/blob/main/doc/images/duplicate.png">
 </p>
 
 </details>
