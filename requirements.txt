@@ -5,6 +5,7 @@ fiftyone_brain==0.16.1
 fiftyone_db==1.1.1
 keybert==0.8.4
 numpy==1.26.4
+onnx==1.16.0
 onnxruntime==1.17.1
 opencv_python==4.9.0.80
 opencv_python_headless==4.9.0.80
